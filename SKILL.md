@@ -263,7 +263,13 @@ Wait at least **5 minutes** before checking status, then poll every 1–2 minute
 - `ordered` — the retailer order was placed successfully
 - `failed` — the order failed and refund handling can begin
 
-Tracking may appear once the retailer provides it. When available, show carrier and tracking number to the user.
+Tracking may appear once the retailer provides it. When available, show the carrier and tracking number to the user.
+
+For Amazon-style `TBA...` tracking numbers:
+
+- Prefer showing `Amazon Logistics` plus the tracking number
+- Do not assume a retailer tracking page will be usable without login
+- Use this note when helpful: `Detailed tracking may appear once the package is in transit.`
 
 ## Refunds
 
