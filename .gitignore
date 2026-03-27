@@ -1,0 +1,2 @@
+# Local feedback entries can be written during testing without being committed.
+feedback.jsonl
